@@ -11,3 +11,5 @@
 6. Virtual DOM: JS datastructure, lightweight , in memory representation.
 
 7. In React a component cant return more than 1 element. Use Fragment (<>) to solve this issue.
+
+8. In JSX we can only use html or other react components.
