@@ -9,3 +9,5 @@
 5. DOM: tree like structure representing all elements/components in browser.
 
 6. Virtual DOM: JS datastructure, lightweight , in memory representation.
+
+7. In React a component cant return more than 1 element. Use Fragment (<>) to solve this issue.
