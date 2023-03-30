@@ -13,3 +13,5 @@
 7. In React a component cant return more than 1 element. Use Fragment (<>) to solve this issue.
 
 8. In JSX we can only use html or other react components.
+
+9. Type Annotation: We can specify the type of our vars & parameters.
