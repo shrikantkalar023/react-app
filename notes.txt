@@ -19,3 +19,7 @@
 10. Hook: fn allows to tap into built-in features in React
 
 11. Each component is going to have its own state, independent of other components.
+
+12. Interface in TS: using this we can define the shape or the interface of an obj.
+
+13. Using Props we can pass data to our components.
