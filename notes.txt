@@ -22,4 +22,10 @@
 
 12. Interface in TS: using this we can define the shape or the interface of an obj.
 
-13. Using Props we can pass data to our components.
+13. Using Props we can pass data to our components.(like fn args)
+
+14. State is local data in a React component.
+
+15. rafce -> react Arrow Function Export component. shortcut
+
+16. With children prop we can pass children to a component
