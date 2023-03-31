@@ -28,4 +28,4 @@
 
 15. rafce -> react Arrow Function Export component. shortcut
 
-16. With children prop we can pass children to a component
+16. With children prop we can pass children to a component. "children: ReactNode" if we want to pass html.
