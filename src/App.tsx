@@ -1,14 +1,9 @@
-import ListGroup from "./components/ListGroup";
-import "./App.css";
+import { AiFillCalendar } from "react-icons/ai";
 
 function App() {
   return (
     <div>
-      <ListGroup
-        heading="Miami"
-        items={["New York", "Los Angeles", "San Francisco"]}
-        onSelectItem={(item) => console.log(item)}
-      ></ListGroup>
+      <AiFillCalendar color="gold" size={50}></AiFillCalendar>
     </div>
   );
 }
