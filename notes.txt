@@ -31,3 +31,5 @@
 16. With children prop we can pass children to a component. "children: ReactNode" if we want to pass html.
 
 17. A CSS module : all class names r scoped locally, to avoid name clashes with other CSS files.
+
+18. CSS-IN-JS : write all the styles for a component next to its definition in JS or TS file.
