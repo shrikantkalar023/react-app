@@ -1,9 +1,9 @@
-import { AiFillCalendar } from "react-icons/ai";
+import Button from "./components/Button/Button";
 
 function App() {
   return (
     <div>
-      <AiFillCalendar color="gold" size={50}></AiFillCalendar>
+      <Button onClick={() => console.log("clicked")}>my button</Button>
     </div>
   );
 }
