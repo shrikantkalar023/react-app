@@ -33,3 +33,9 @@
 17. A CSS module : all class names r scoped locally, to avoid name clashes with other CSS files.
 
 18. CSS-IN-JS : write all the styles for a component next to its definition in JS or TS file.
+
+19. React updates state asynchonously,(after event handler finishes execution).
+
+20. State is stored outside of components in memory. They are there (in memory) as long as components r visible on screen.
+
+21. Use hooks only at the top level of our components. (No using them in if, for ,nested loops)
