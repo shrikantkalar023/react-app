@@ -39,3 +39,15 @@
 20. State is stored outside of components in memory. They are there (in memory) as long as components r visible on screen.
 
 21. Use hooks only at the top level of our components. (No using them in if, for ,nested loops)
+
+22. Group related State vars inside an obj, but avoid deep nesting bsc hard to update.
+
+23. Pure Fn: Given same input, always returns same result.
+
+24. React components take 'Props' input and give 'JSX' output.
+
+25. To keep components pure, keep changes out of the render phase. No change to any item that existed before rendering.(return block)
+    It is totally fine to update an item created as part of rendering. 
+
+26. Strict Mode. Renders each component twice & shows result of 2nd render. 2nd render -> used to update user interface
+    1st render-> detect & report bugs. only in devlopment mode.

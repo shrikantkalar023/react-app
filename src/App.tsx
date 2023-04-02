@@ -1,16 +1,9 @@
-import Button from "./components/Button";
-import { useState } from "react";
+import MessageCount from "./MessageCount";
 
 function App() {
-  const [isVisible, setIsVisible] = useState(false);
-
-  const handleClick = () => {
-    setIsVisible(true);
-    console.log(isVisible);
-  };
   return (
     <div>
-      <Button onClick={handleClick}>Show</Button>
+      <MessageCount></MessageCount>
     </div>
   );
 }
