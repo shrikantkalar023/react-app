@@ -58,3 +58,7 @@
     When updating State, our new State obj is independent of existing State obj.
 
 29. Immers lib: draft is a proxy obj that records changes we going to apply to State arr/obj.(<-Copy of) 
+
+30. To share State betn components we need to lift the State to the closest parent and share with child components as props.
+
+31. The component holding the State is responsible for updating it...(not chlid components)
