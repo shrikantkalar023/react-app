@@ -53,3 +53,6 @@
     1st render-> detect & report bugs. only in devlopment mode.
 
 27. We should treat props & state obj/arrays as immutable.
+
+28. Spread operator is shallow. Retruns address doesn't create new.
+    When updating State, our new State obj is independent of existing State obj.
