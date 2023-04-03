@@ -56,3 +56,5 @@
 
 28. Spread operator is shallow. Retruns address doesn't create new.
     When updating State, our new State obj is independent of existing State obj.
+
+29. Immers lib: draft is a proxy obj that records changes we going to apply to State arr/obj.(<-Copy of) 
