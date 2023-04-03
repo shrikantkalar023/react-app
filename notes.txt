@@ -51,3 +51,5 @@
 
 26. Strict Mode. Renders each component twice & shows result of 2nd render. 2nd render -> used to update user interface
     1st render-> detect & report bugs. only in devlopment mode.
+
+27. We should treat props & state obj/arrays as immutable.
