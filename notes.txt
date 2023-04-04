@@ -62,3 +62,9 @@
 30. To share State betn components we need to lift the State to the closest parent and share with child components as props.
 
 31. The component holding the State is responsible for updating it...(not chlid components)
+
+32. Ref Hook: used to reference DOM elements. This obj has 1 'current' property.
+
+33. ParseInt: JS fn. covert str to no.
+
+34. <varname>? for optional parameter in Props.
