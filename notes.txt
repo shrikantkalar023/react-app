@@ -75,3 +75,9 @@
     not managed by DOM but instead is stored & updated in the component state.
 
 37. Optional Chaining (?) and Destructuring, Nested Destructuring.. some new features of JS.
+
+38. Schema: All validation rules defined in one place. Zod is a lib for this.
+
+39. TS 'type' is similar to 'interface'.
+
+40. Value property of input fields always returns a str.
