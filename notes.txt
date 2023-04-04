@@ -34,7 +34,7 @@
 
 18. CSS-IN-JS : write all the styles for a component next to its definition in JS or TS file.
 
-19. React updates state asynchonously,(after event handler finishes execution).
+19. React updates state asynchonously,(after all event handler finish execution). State change causes re-render.
 
 20. State is stored outside of components in memory. They are there (in memory) as long as components r visible on screen.
 
