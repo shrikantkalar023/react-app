@@ -73,3 +73,5 @@
 
 36. Controlled component: The component's state is entirely controlled by react. In case of Input fields the 'value' is
     not managed by DOM but instead is stored & updated in the component state.
+
+37. Optional Chaining (?) and Destructuring, Nested Destructuring.. some new features of JS.
