@@ -68,3 +68,8 @@
 33. ParseInt: JS fn. covert str to no.
 
 34. <varname>? for optional parameter in Props.
+
+35. All 'input fields' in HTML has a 'value' property for maintaining their own state.
+
+36. Controlled component: The component's state is entirely controlled by react. In case of Input fields the 'value' is
+    not managed by DOM but instead is stored & updated in the component state.
