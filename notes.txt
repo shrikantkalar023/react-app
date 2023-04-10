@@ -63,21 +63,22 @@
 
 31. The component holding the State is responsible for updating it...(not chlid components)
 
-32. Ref Hook: used to reference DOM elements. This obj has 1 'current' property.
+32. Ref Hook: used to reference DOM elements. This obj has 1 'current' property. Used to read values from input field.
 
 33. ParseInt: JS fn. covert str to no.
 
 34. <varname>? for optional parameter in Props.
 
-35. All 'input fields' in HTML has a 'value' property for maintaining their own state.
+35. All 'input fields' in HTML has a 'value' property for maintaining their own state. Value property of input fields always returns a str.
 
 36. Controlled component: The component's state is entirely controlled by react. In case of Input fields the 'value' is
     not managed by DOM but instead is stored & updated in the component state.
 
 37. Optional Chaining (?) and Destructuring, Nested Destructuring.. some new features of JS.
 
-38. Schema: All validation rules defined in one place. Zod is a lib for this.
+38. Schema: All validation rules defined in one place. 'Zod' is a lib for this(schema based form validation)
 
 39. TS 'type' is similar to 'interface'.
 
-40. Value property of input fields always returns a str.
+40. Both ref hook & state hook can be used to read data from input fields. 'React-hook-form' lib makes this even easier.
+    It also supports standard HTML attributes for data validation such as required, minLength, etc.
