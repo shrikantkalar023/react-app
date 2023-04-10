@@ -38,7 +38,7 @@
 
 20. State is stored outside of components in memory. They are there (in memory) as long as components r visible on screen.
 
-21. Use hooks only at the top level of our components. (No using them in if, for ,nested loops)
+21. Use 'hooks' only at the top level of our components. (No using them in if, for ,nested loops)
 
 22. Group related State vars inside an obj, but avoid deep nesting bsc hard to update.
 
@@ -82,3 +82,6 @@
 
 40. Both ref hook & state hook can be used to read data from input fields. 'React-hook-form' lib makes this even easier.
     It also supports standard HTML attributes for data validation such as required, minLength, etc.
+
+41. Effect hook : execute some code after a component is rendered. To prevent Side-effect, to keep components pure.
+    e.g. storing smthing in local storage(browser), working with DOM elements, call server etc.
