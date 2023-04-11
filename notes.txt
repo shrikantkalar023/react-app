@@ -90,5 +90,10 @@
 
 42. React Icons : lib for using icons with react.
 
-43. Effect Dependencies: vars Effect hook is dependent on. If value of any one of vars change, react reruns Effect fn.
+43. Effect Dependencies: vars(state or props) Effect hook is dependent on. If value of any one of vars change, react reruns Effect fn.
     [] for making it run only once, the 1st time our component is rendered.
+
+44. 'Cleanup code' should be provided if needed in 'return' statement of Effect hook. Usually cleanup code stops or undos
+    whatever effect was doing. (connect,subscribe,show,fetch-disconnect,unsub,hide,abort or ignore)
+
+45. React 'mounts' and 'unmounts' components on screen. Cleanup code gets executed during unmounting.
