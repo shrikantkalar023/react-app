@@ -33,6 +33,7 @@
 17. A CSS module : all class names r scoped locally, to avoid name clashes with other CSS files.
 
 18. CSS-IN-JS : write all the styles for a component next to its definition in JS or TS file.
+    styled-components library is used for this.
 
 19. React updates state asynchonously,(after all event handler finish execution). State change causes re-render.
 
@@ -57,7 +58,8 @@
 28. Spread operator is shallow. Retruns address doesn't create new.
     When updating State, our new State obj is independent of existing State obj.
 
-29. Immers lib: draft is a proxy obj that records changes we going to apply to State arr/obj.(<-Copy of) 
+29. 'Immers' lib: draft is a proxy obj that records changes we going to apply to State arr/obj.(<-Copy of)
+    used to update state vars (arrays & objs)
 
 30. To share State betn components we need to lift the State to the closest parent and share with child components as props.
 
@@ -85,3 +87,8 @@
 
 41. Effect hook : execute some code after a component is rendered. To prevent Side-effect, to keep components pure.
     e.g. storing smthing in local storage(browser), working with DOM elements, call server etc.
+
+42. React Icons : lib for using icons with react.
+
+43. Effect Dependencies: vars Effect hook is dependent on. If value of any one of vars change, react reruns Effect fn.
+    [] for making it run only once, the 1st time our component is rendered.
