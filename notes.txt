@@ -35,7 +35,7 @@
 18. CSS-IN-JS : write all the styles for a component next to its definition in JS or TS file.
     styled-components library is used for this.
 
-19. React updates state asynchonously,(after all event handler finish execution). State change causes re-render.
+19. React updates state asynchronously,(after all event handler finish execution). State change causes re-render.
 
 20. State is stored outside of components in memory. They are there (in memory) as long as components r visible on screen.
 
@@ -97,3 +97,10 @@
     whatever effect was doing. (connect,subscribe,show,fetch-disconnect,unsub,hide,abort or ignore)
 
 45. React 'mounts' and 'unmounts' components on screen. Cleanup code gets executed during unmounting.
+
+46. Axios: lib for http request.
+
+47.'Promise': An obj that holds the eventual result or failure of an asynchronous(long running) operation.
+    All promises have a method called 'then'.
+
+48. Give [] as Effect Dependencies when updating state in effect hook.
