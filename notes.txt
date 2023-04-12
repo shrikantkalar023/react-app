@@ -104,3 +104,9 @@
     All promises have a method called 'then'.
 
 48. Give [] as Effect Dependencies when updating state in effect hook.
+
+49. XHR: xml http request.
+
+50. Every http request/response has 2 sections: headers (metadata) & body(supply or get data)
+
+51. All promises have a 'catch' method for catching errors.
