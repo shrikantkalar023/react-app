@@ -118,3 +118,14 @@
 54. Type Annotation is not allowed in catch clause. (type assertion)
 
 55. 'Await' the promise from a 'asynch' function to get response. Try catch block for error handling.
+
+56. Best Practice: When we fetch data in effect we should also provide a cleanup fn for cancelling the fetch req
+    in case the data is no longer needed.
+
+57. 'AbortController': Built in class in browsers, that allows us to cancel or abort asynchronous operation.
+
+58. asynchronous operations are non blocking. So control moves immediately to next line of code wether promise is
+    settled or not.
+
+59. All promises have a 'finally' method, which is executed when our promise is settled. This doesn't work in
+    strict mode.
