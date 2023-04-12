@@ -110,3 +110,11 @@
 50. Every http request/response has 2 sections: headers (metadata) & body(supply or get data)
 
 51. All promises have a 'catch' method for catching errors.
+
+52. Axios get returns a promise. If promise resolved we get response else error obj.
+
+53. Can't pass asynch fns to Effect hook.
+
+54. Type Annotation is not allowed in catch clause. (type assertion)
+
+55. 'Await' the promise from a 'asynch' function to get response. Try catch block for error handling.
