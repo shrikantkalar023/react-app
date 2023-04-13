@@ -135,3 +135,5 @@
 
 61. Pessimistic Update: Call the server, wait for result.If call successful, we update UI.
     We assume call to server will fail. Slow UI.
+
+62. data: savedUser = savedUser is renaming / alias for data property. TS feature ig.
