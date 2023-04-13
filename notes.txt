@@ -137,3 +137,5 @@
     We assume call to server will fail. Slow UI.
 
 62. data: savedUser = savedUser is renaming / alias for data property. TS feature ig.
+
+63. In Http, 'Put' for replacing an obj & 'Patch' for updaing one or more of obj properties.
