@@ -129,3 +129,9 @@
 
 59. All promises have a 'finally' method, which is executed when our promise is settled. This doesn't work in
     strict mode.
+
+60. Optimistic Update: Update the UI then Call the server. We r optimistic that call to server will succeed.
+    Blazing fast UI. Instant feedback to user. **preferred**
+
+61. Pessimistic Update: Call the server, wait for result.If call successful, we update UI.
+    We assume call to server will fail. Slow UI.
