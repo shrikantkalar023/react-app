@@ -141,3 +141,5 @@
 63. In Http, 'Put' for replacing an obj & 'Patch' for updaing one or more of obj properties.
 
 64. Some backends require us to send apikey in http headers.
+
+65. Custom Hooks: We can share functionality across different components.
