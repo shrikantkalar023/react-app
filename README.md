@@ -1,3 +1,3 @@
-GameHub is a video game discovery web app that helps you find new and interesting games to play. With GameHub, you can search for games by platform, genre, and more. 
+Hi! Here is my jouryney of learning basics of React & TS from CodeWithMosh.com.
 
-This is the project I built while learning basics of React.
+I have made this repo and commited code here as i studied, so as to document my process.
