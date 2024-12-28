@@ -8,97 +8,101 @@
 
 5. DOM: tree like structure representing all elements/components in browser.
 
-6. Virtual DOM: JS datastructure, lightweight , in memory representation.
+6. Virtual DOM: JS data structure, lightweight , in memory representation of component tree, where each node represents a component & its properties.
 
-7. In React a component cant return more than 1 element. Use Fragment (<>) to solve this issue.
+7. When state of a component changes, React updates the corresponding node in virtual DOM to reflect the new state. Then it compares the current version of virtual DOM with the previous version to identify the nodes that need to be updated. Then update those nodes in the actual DOM.
 
-8. In JSX we can only use html or other react components.
+8. In React a component cant return more than 1 element. Use Fragment (<>) to solve this issue.
 
-9. Type Annotation: We can specify the type of our vars & parameters.
+9. In JSX we can only use html or other react components.
 
-10. Hook: fn allows to tap into built-in features in React
+10. Type Annotation: We can specify the type of our vars & parameters.
 
-11. Each component is going to have its own state, independent of other components.
+11. Hook: fn allows to tap into built-in features in React
 
-12. Interface in TS: using this we can define the shape or the interface of an obj.
+12. Each component is going to have its own state, independent of other components.
 
-13. Using Props we can pass data to our components.(like fn args)
+13. Interface in TS: using this we can define the shape or the interface of an obj.
 
-14. State is local data in a React component.
+14. Using Props we can pass data to our components.(like fn args)
 
-15. rafce -> react Arrow Function Export component. shortcut
+15. event handler prop names start with on & then camelCased event name. e.g. onSelectItem, onClick, onChange, onSubmit
 
-16. With children prop we can pass children to a component. "children: ReactNode" if we want to pass html.
+16. State is local data in a React component.
 
-17. A CSS module : all class names r scoped locally, to avoid name clashes with other CSS files.
+17. rafce -> react Arrow Function Export component. shortcut
 
-18. CSS-IN-JS : write all the styles for a component next to its definition in JS or TS file.
+18. With children prop we can pass children to a component. "children: ReactNode" if we want to pass html.
+
+19. A CSS module : all class names r scoped locally, to avoid name clashes with other CSS files.
+
+20. CSS-IN-JS : write all the styles for a component next to its definition in JS or TS file.
     styled-components library is used for this.
 
-19. React updates state asynchronously,(after all event handler finish execution). State change causes re-render.
+21. React updates state asynchronously,(after the event handler finishes execution). All the state changes are batched.
 
-20. State is stored outside of components in memory. They are there (in memory) as long as components r visible on screen.
+22. State is stored outside of components in memory. They are there (in memory) as long as components r visible on screen.
 
-21. Use 'hooks' only at the top level of our components. (No using them in if, for ,nested loops)
+23. Use 'hooks' only at the top level of our components. (No using them in if, for ,nested loops)
 
-22. Group related State vars inside an obj, but avoid deep nesting bsc hard to update.
+24. Group related State vars inside an obj, but avoid deep nesting bsc hard to update.
 
-23. Pure Fn: Given same input, always returns same result.
+25. Pure Fn: Given same input, always returns same result.
 
-24. React components take 'Props' input and give 'JSX' output.
+26. React components take 'Props' input and give 'JSX' output.
 
-25. To keep components pure, keep changes out of the render phase. No change to any item that existed before rendering.(return block)
+27. To keep components pure, keep changes out of the render phase. No change to any item that existed before rendering. (before function component)
     It is totally fine to update an item created as part of rendering.
 
-26. Strict Mode. Renders each component twice & shows result of 2nd render. 2nd render -> used to update user interface
+28. Strict Mode. Renders each component twice & shows result of 2nd render. 2nd render -> used to update user interface
     1st render-> detect & report bugs. only in devlopment mode.
 
-27. We should treat props & state obj/arrays as immutable.
+29. We should treat **props** & state obj/arrays as **immutable**.
 
-28. Spread operator is shallow. Retruns address doesn't create new.
+30. Spread operator is shallow. Retruns address doesn't create new.
     When updating State, our new State obj is independent of existing State obj.
 
-29. 'Immers' lib: draft is a proxy obj that records changes we going to apply to State arr/obj.(<-Copy of)
+31. 'Immers' lib: draft is a proxy obj that records changes we going to apply to State arr/obj.(<-Copy of)
     used to update state vars (arrays & objs)
 
-30. To share State betn components we need to lift the State to the closest parent and share with child components as props.
+32. To share State betn components we need to lift the State to the closest parent and share with child components as props.
 
-31. The component holding the State is responsible for updating it...(not chlid components)
+33. The component holding the State is responsible for updating it...(not chlid components)
 
-32. Ref Hook: used to reference DOM elements. This obj has 1 'current' property. Used to read values from input field.
+34. Ref Hook: used to reference DOM elements. This obj has 1 'current' property. Used to read values from input field.
 
-33. ParseInt: JS fn. covert str to no.
+35. ParseInt: JS fn. covert str to no.
 
-34. <varname>? for optional parameter in Props.
+36. <varname>? for optional parameter in Props.
 
-35. All 'input fields' in HTML has a 'value' property for maintaining their own state. Value property of input fields always returns a str.
+37. All 'input fields' in HTML has a 'value' property for maintaining their own state. Value property of input fields always returns a str.
 
-36. Controlled component: The component's state is entirely controlled by react. In case of Input fields the 'value' is
+38. Controlled component: The component's state is entirely controlled by react. In case of Input fields the 'value' is
     not managed by DOM but instead is stored & updated in the component state.
 
-37. Optional Chaining (?) and Destructuring, Nested Destructuring.. some new features of JS.
+39. Optional Chaining (?) and Destructuring, Nested Destructuring.. some new features of JS.
 
-38. Schema: All validation rules defined in one place. 'Zod' is a lib for this(schema based form validation)
+40. Schema: All validation rules defined in one place. 'Zod' is a lib for this(schema based form validation)
 
-39. TS 'type' is similar to 'interface'.
+41. TS 'type' is similar to 'interface'.
 
-40. Both ref hook & state hook can be used to read data from input fields. 'React-hook-form' lib makes this even easier.
+42. Both ref hook & state hook can be used to read data from input fields. 'React-hook-form' lib makes this even easier.
     It also supports standard HTML attributes for data validation such as required, minLength, etc.
 
-41. Effect hook : execute some code after a component is rendered. To prevent Side-effect, to keep components pure.
+43. Effect hook : execute some code after a component is rendered. To prevent Side-effect, to keep components pure.
     e.g. storing smthing in local storage(browser), working with DOM elements, call server etc.
 
-42. React Icons : lib for using icons with react.
+44. React Icons : lib for using icons with react.
 
-43. Effect Dependencies: vars(state or props) Effect hook is dependent on. If value of any one of vars change, react reruns Effect fn.
+45. Effect Dependencies: vars(state or props) Effect hook is dependent on. If value of any one of vars change, react reruns Effect fn.
     [] for making it run only once, the 1st time our component is rendered.
 
-44. 'Cleanup code' should be provided if needed in 'return' statement of Effect hook. Usually cleanup code stops or undos
+46. 'Cleanup code' should be provided if needed in 'return' statement of Effect hook. Usually cleanup code stops or undos
     whatever effect was doing. (connect,subscribe,show,fetch-disconnect,unsub,hide,abort or ignore)
 
-45. React 'mounts' and 'unmounts' components on screen. Cleanup code gets executed during unmounting.
+47. React 'mounts' and 'unmounts' components on screen. Cleanup code gets executed during unmounting.
 
-46. Axios: lib for http request.
+48. Axios: lib for http request.
 
 47.'Promise': An obj that holds the eventual result or failure of an asynchronous(long running) operation.
 All promises have a method called 'then'.
